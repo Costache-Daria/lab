@@ -3,7 +3,6 @@
 
 int function(int x){
 	x=x-2;
-	x=function(x);
 	return x;
 }
 
@@ -17,4 +16,5 @@ int main(){
 	printf("%d", i);
 	return 0;	
 }
+
 
